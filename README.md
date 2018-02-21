@@ -29,7 +29,7 @@ $> npm install -g ganache-cli
 
 ## Playing with REPL
 
-### deploy the contract to the local network (make sure your ganache-cli is running)
+### Before we play with the contract we need to deploy it using ```truffle migrate``` (make sure your ganache-cli is running)
 * truffle migrate --reset
 * truffle console
 ```
